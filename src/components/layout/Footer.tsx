@@ -7,11 +7,11 @@ export function Footer() {
   return (
     <footer className="relative z-10 border-t border-[var(--color-dark)]/10 bg-[var(--color-cream)]">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 py-8 md:flex-row">
-        <div className="flex items-center gap-4 font-[family-name:var(--font-heading)] text-sm uppercase tracking-widest">
+        <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 font-[family-name:var(--font-heading)] text-sm uppercase tracking-widest">
           <span>Pedro Magallanes</span>
-          <span className="text-[var(--color-gold)]">&#9679;</span>
+          <span className="hidden sm:inline text-[var(--color-gold)]">&#9679;</span>
           <span>Diseñador Gráfico</span>
-          <span className="text-[var(--color-gold)]">&#9679;</span>
+          <span className="hidden sm:inline text-[var(--color-gold)]">&#9679;</span>
           <span>Argentina</span>
         </div>
         <div className="flex items-center gap-6 text-sm">

@@ -18,7 +18,7 @@ export function Navbar() {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-40 mix-blend-difference">
+    <nav className={`fixed top-0 left-0 right-0 z-40 ${isOpen ? "" : "mix-blend-difference"}`}>
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <Link href="/" className="font-[family-name:var(--font-heading)] text-2xl text-white">
           PM

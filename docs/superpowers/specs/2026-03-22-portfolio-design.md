@@ -100,7 +100,7 @@ Extraída del PDF original:
 
 #### Hero Section
 - Fondo con patrón de cuadrícula animado (las líneas se dibujan al cargar)
-- "PEDRO MAGALLANES." en tipografía bold condensada con efecto glitch que alterna colores (amarillo/azul/negro)
+- "PEDRO MAGALLANES" en tipografía bold condensada con efecto glitch que alterna colores (amarillo/azul/negro)
 - "DISEÑADOR GRÁFICO" con animación tipo máquina de escribir con distorsión
 - Formas geométricas flotantes que reaccionan al cursor (triángulos amarillos, semicírculos azules)
 - Flechas chevron (>>>) animadas como indicador de scroll
