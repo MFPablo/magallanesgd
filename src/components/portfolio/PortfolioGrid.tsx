@@ -12,10 +12,8 @@ const categories: (Category | "all")[] = [
   "all",
   "logofolio",
   "branding",
-  "packaging",
   "editorial",
   "social-media",
-  "web-design",
 ];
 
 export function PortfolioGrid() {

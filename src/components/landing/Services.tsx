@@ -60,9 +60,6 @@ export function Services() {
                 <p className="mt-2 text-sm text-[var(--color-dark)]/60">
                   {t(`items.${service.id}.desc`)}
                 </p>
-                <p className="mt-4 font-[family-name:var(--font-heading)] text-lg text-[var(--color-gold)]">
-                  {service.priceRange}
-                </p>
               </motion.div>
             </ScrollReveal>
           ))}

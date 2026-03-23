@@ -18,15 +18,80 @@
     "prev": "Previous",
     "next": "Next"
   },
+  "caseStudy": {
+    "problem": "The Problem",
+    "process": "The Process",
+    "solution": "The Solution",
+    "client": "Client",
+    "year": "Year",
+    "category": "Category",
+    "tools": "Tools",
+    "palette": "Palette"
+  },
+  "projects": {
+    "etreum": {
+      "problem": "An independent horror film festival needed a logo that captured the essence of horror with a cartoonish twist.",
+      "process": "Drawing from the morphologies of creatures created for the event, the logo plays with straight and curved shapes in a cartoonish yet structured style.",
+      "solution": "A logo that combines horror elements with an accessible style, used across the entire visual identity of the festival."
+    },
+    "inspectre": {
+      "problem": "A custom fan brand needed an identity that reflected its urban and youthful style.",
+      "process": "Built with a wavy typeface that matches the brand's style, incorporating the fan icon as an isotype.",
+      "solution": "Complete branding including logo, packaging, and social media material with neon and vibrant aesthetics."
+    },
+    "segurola-y-habana": {
+      "problem": "An amateur football team needed a crest that honored tradition with a modern design.",
+      "process": "Using the national coat of arms as an emblem and adding Maradona's iconic number 10, both the logo and name reference the idol of all.",
+      "solution": "Complete crest with sportswear design including the official jersey."
+    },
+    "kaffeehaus": {
+      "problem": "A coffee shop needed an isotype that conveyed warmth and tradition.",
+      "process": "The logo has a Bauhaus style, taking Marianne Brandt's 1924 teapot as a reference.",
+      "solution": "A minimalist isotype with clean lines that evokes coffee culture."
+    },
+    "gm-muebles": {
+      "problem": "A furniture manufacturing and restoration business needed a professional logo.",
+      "process": "The logo takes the geometric shapes and straight cuts typical of the industry to form the initials GM.",
+      "solution": "A geometric logo that communicates solidity and craftsmanship."
+    },
+    "nacional-futbol": {
+      "problem": "An amateur football team needed a crest redesign that preserved the original essence.",
+      "process": "Inspired by traditional old football crests, this redesign maintains the original essence while modernizing the badge.",
+      "solution": "A modernized crest with a central N typography on a navy blue and gold background."
+    },
+    "mega-viajeros": {
+      "problem": "An adventure tourism venture needed a dynamic visual identity.",
+      "process": "The logo takes geometric shapes and forms that evoke movement and adventure, forming the initials MV.",
+      "solution": "A dynamic logo with vibrant colors that conveys energy and adventure."
+    },
+    "la-2-rusa": {
+      "problem": "A motorcycle apparel importer needed a logo with an American identity.",
+      "process": "While the logo uses the initials with a dynamic and modern typeface, the American flag was added since the client established in the US.",
+      "solution": "An L2R logo integrated with the American flag, communicating the brand's origin and attitude."
+    },
+    "etreum-festival": {
+      "problem": "A fantasy, horror, and animation film festival needed graphic pieces for its IV international edition.",
+      "process": "Characters were created as nightmare creatures as a visual concept. The idea was to give the event a distinct personality with horror aesthetics but with cartoonish undertones.",
+      "solution": "A complete graphic system with characters, posters, stickers, and promotional material for venues in Buenos Aires, Toronto, Madrid, Bogota, Veracruz, and Mexico City."
+    },
+    "bauhaus-infografia": {
+      "problem": "Create an educational infographic about the history of the Bauhaus.",
+      "process": "Research on the Bauhaus school (1919-1933) and design with aesthetics inspired by the movement.",
+      "solution": "A timeline infographic with Bauhaus typography and geometry, combining period photography with graphic elements."
+    },
+    "social-media-inspectre": {
+      "problem": "The brand needed visual content for social media that maintained consistency with its urban identity.",
+      "process": "Design of Instagram pieces including posts, stories, and showroom promotional material.",
+      "solution": "A social media content suite with neon and street style aesthetics, including product photos and informational pieces."
+    }
+  },
   "services": {
     "title": "Services",
     "items": {
       "identity": { "name": "Visual Identity", "desc": "Logo design, color palettes, and complete visual systems for your brand." },
       "branding": { "name": "Branding", "desc": "Comprehensive brand identity building with consistency across all touchpoints." },
-      "packaging": { "name": "Packaging", "desc": "Package and container design that stands out at the point of sale." },
       "editorial": { "name": "Editorial Design", "desc": "Layout of magazines, catalogs, infographics, and printed pieces." },
-      "social": { "name": "Social Media", "desc": "Visual content for social media that connects with your audience." },
-      "web": { "name": "Web Design", "desc": "Modern, responsive websites optimized for conversion." }
+      "social": { "name": "Social Media", "desc": "Visual content for social media that connects with your audience." }
     }
   },
   "about": {
@@ -40,13 +105,8 @@
   "contact": {
     "title": "Contact",
     "cta": "Message me on WhatsApp",
-    "more": "See more contact options",
-    "form": {
-      "name": "Name",
-      "email": "Email",
-      "message": "Message",
-      "send": "Send"
-    }
+    "downloadLabel": "Portfolio PDF",
+    "downloadCta": "Download Portfolio"
   },
   "clients": {
     "title": "Clients"

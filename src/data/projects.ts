@@ -1,4 +1,4 @@
-export type Category = "logofolio" | "branding" | "packaging" | "editorial" | "social-media" | "web-design";
+export type Category = "logofolio" | "branding" | "editorial" | "social-media";
 
 export interface Project {
   slug: string;
@@ -19,6 +19,9 @@ export interface Project {
   typography?: string[];
 }
 
+const cl = (path: string) =>
+  `https://res.cloudinary.com/dzje6hbhy/image/upload/portfolio/${path}`;
+
 export const projects: Project[] = [
   {
     slug: "etreum",
@@ -26,8 +29,8 @@ export const projects: Project[] = [
     category: "logofolio",
     year: 2024,
     client: "Etreum Horror Film Festival",
-    coverImage: "/projects/etreum/cover.jpg",
-    images: ["/projects/etreum/01.jpg", "/projects/etreum/02.jpg", "/projects/etreum/03.jpg"],
+    coverImage: cl("etreum/cover.jpg"),
+    images: [cl("etreum/01.jpg"), cl("etreum/02.jpg"), cl("etreum/03.jpg")],
     tools: ["Illustrator", "Photoshop"],
     featured: true,
     description: {
@@ -44,8 +47,8 @@ export const projects: Project[] = [
     category: "branding",
     year: 2024,
     client: "Inspectre",
-    coverImage: "/projects/inspectre/cover.jpg",
-    images: ["/projects/inspectre/01.jpg", "/projects/inspectre/02.jpg", "/projects/inspectre/03.jpg"],
+    coverImage: cl("inspectre/cover.jpg"),
+    images: [cl("inspectre/01.jpg"), cl("inspectre/02.jpg"), cl("inspectre/03.jpg")],
     tools: ["Illustrator", "Photoshop", "InDesign"],
     featured: true,
     description: {
@@ -62,8 +65,8 @@ export const projects: Project[] = [
     category: "branding",
     year: 2024,
     client: "Segurola y Habana Futbol",
-    coverImage: "/projects/segurola-y-habana/cover.jpg",
-    images: ["/projects/segurola-y-habana/01.jpg", "/projects/segurola-y-habana/02.jpg"],
+    coverImage: cl("segurola-y-habana/cover.jpg"),
+    images: [cl("segurola-y-habana/01.jpg"), cl("segurola-y-habana/02.jpg")],
     tools: ["Illustrator", "Photoshop"],
     featured: true,
     description: {
@@ -80,8 +83,8 @@ export const projects: Project[] = [
     category: "logofolio",
     year: 2020,
     client: "Kaffeehaus",
-    coverImage: "/projects/kaffeehaus/cover.jpg",
-    images: ["/projects/kaffeehaus/01.jpg"],
+    coverImage: cl("kaffeehaus/cover.jpg"),
+    images: [cl("kaffeehaus/01.jpg")],
     tools: ["Illustrator"],
     featured: false,
     description: {
@@ -98,8 +101,8 @@ export const projects: Project[] = [
     category: "logofolio",
     year: 2023,
     client: "GM Muebles",
-    coverImage: "/projects/gm-muebles/cover.jpg",
-    images: ["/projects/gm-muebles/01.jpg"],
+    coverImage: cl("gm-muebles/cover.jpg"),
+    images: [cl("gm-muebles/01.jpg")],
     tools: ["Illustrator"],
     featured: false,
     description: {
@@ -116,8 +119,8 @@ export const projects: Project[] = [
     category: "logofolio",
     year: 2022,
     client: "Nacional Futbol",
-    coverImage: "/projects/nacional-futbol/cover.jpg",
-    images: ["/projects/nacional-futbol/01.jpg"],
+    coverImage: cl("nacional-futbol/cover.jpg"),
+    images: [cl("nacional-futbol/01.jpg")],
     tools: ["Illustrator"],
     featured: false,
     description: {
@@ -134,8 +137,8 @@ export const projects: Project[] = [
     category: "logofolio",
     year: 2024,
     client: "Mega Viajeros",
-    coverImage: "/projects/mega-viajeros/cover.jpg",
-    images: ["/projects/mega-viajeros/01.jpg"],
+    coverImage: cl("mega-viajeros/cover.jpg"),
+    images: [cl("mega-viajeros/01.jpg")],
     tools: ["Illustrator"],
     featured: false,
     description: {
@@ -152,8 +155,8 @@ export const projects: Project[] = [
     category: "logofolio",
     year: 2023,
     client: "La 2 Rusa",
-    coverImage: "/projects/la-2-rusa/cover.jpg",
-    images: ["/projects/la-2-rusa/01.jpg", "/projects/la-2-rusa/02.jpg"],
+    coverImage: cl("la-2-rusa/cover.jpg"),
+    images: [cl("la-2-rusa/01.jpg"), cl("la-2-rusa/02.jpg")],
     tools: ["Illustrator", "Photoshop"],
     featured: false,
     description: {
@@ -170,8 +173,8 @@ export const projects: Project[] = [
     category: "editorial",
     year: 2024,
     client: "Etreum",
-    coverImage: "/projects/etreum-festival/cover.jpg",
-    images: ["/projects/etreum-festival/01.jpg", "/projects/etreum-festival/02.jpg", "/projects/etreum-festival/03.jpg"],
+    coverImage: cl("etreum-festival/cover.jpg"),
+    images: [cl("etreum-festival/01.jpg"), cl("etreum-festival/02.jpg"), cl("etreum-festival/03.jpg")],
     tools: ["Photoshop", "Illustrator", "InDesign"],
     featured: true,
     description: {
@@ -188,8 +191,8 @@ export const projects: Project[] = [
     category: "editorial",
     year: 2023,
     client: "Proyecto académico",
-    coverImage: "/projects/bauhaus/cover.jpg",
-    images: ["/projects/bauhaus/01.jpg"],
+    coverImage: cl("bauhaus/cover.jpg"),
+    images: [cl("bauhaus/01.jpg")],
     tools: ["InDesign", "Illustrator", "Photoshop"],
     featured: false,
     description: {
@@ -206,8 +209,8 @@ export const projects: Project[] = [
     category: "social-media",
     year: 2024,
     client: "Inspectre",
-    coverImage: "/projects/social-inspectre/cover.jpg",
-    images: ["/projects/social-inspectre/01.jpg", "/projects/social-inspectre/02.jpg"],
+    coverImage: cl("social-inspectre/cover.jpg"),
+    images: [cl("social-inspectre/01.jpg"), cl("social-inspectre/02.jpg")],
     tools: ["Photoshop", "Illustrator"],
     featured: true,
     description: {

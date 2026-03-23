@@ -18,15 +18,80 @@
     "prev": "Anterior",
     "next": "Siguiente"
   },
+  "caseStudy": {
+    "problem": "El Problema",
+    "process": "El Proceso",
+    "solution": "La Solución",
+    "client": "Cliente",
+    "year": "Año",
+    "category": "Categoría",
+    "tools": "Herramientas",
+    "palette": "Paleta"
+  },
+  "projects": {
+    "etreum": {
+      "problem": "Un festival de cine independiente de terror necesitaba un logotipo que capturara la esencia del horror con un toque caricaturesco.",
+      "process": "Tomando las morfologías de criaturas creadas para el evento, el logo juega con formas rectas y curvas en un tono caricaturesco pero estructurado.",
+      "solution": "Logotipo que combina elementos de terror con un estilo accesible, usado en toda la identidad visual del festival."
+    },
+    "inspectre": {
+      "problem": "Marca de abanicos personalizados necesitaba una identidad que reflejara su estilo urbano y juvenil.",
+      "process": "Constituido con una tipografía ondulada que machea con el estilo de la marca, incorporando el isotipo del abanico.",
+      "solution": "Branding completo incluyendo logo, packaging y material para redes sociales con estética neón y vibrante."
+    },
+    "segurola-y-habana": {
+      "problem": "Equipo de futbol amateur necesitaba un escudo que honrara la tradición pero con un diseño moderno.",
+      "process": "Tomando el escudo nacional como emblema, sumando el clásico 10 de Maradona, el logo tanto como el nombre referencia al ídolo de todos.",
+      "solution": "Escudo completo con diseño de indumentaria deportiva incluyendo camiseta oficial."
+    },
+    "kaffeehaus": {
+      "problem": "Cafetería necesitaba un isotipo que transmitiera calidez y tradición.",
+      "process": "El logo tiene un estilo Bauhaus, tomando como referencia la tetera de Marianne Brandt de 1924.",
+      "solution": "Isotipo minimalista con líneas limpias que evoca la cultura del café."
+    },
+    "gm-muebles": {
+      "problem": "Emprendimiento de fabricación y restauración de muebles necesitaba un logo profesional.",
+      "process": "El logo toma las geometrías y cortes rectos propios de la industria para formar las iniciales GM.",
+      "solution": "Logotipo geométrico que comunica solidez y artesanía."
+    },
+    "nacional-futbol": {
+      "problem": "Equipo de futbol amateur necesitaba un rediseño de escudo que mantuviera la esencia original.",
+      "process": "Inspirado en viejos escudos tradicionales de futbol, este rediseño mantiene la esencia original pero moderniza la insignia.",
+      "solution": "Escudo modernizado con tipografía N central sobre fondo azul marino y dorado."
+    },
+    "mega-viajeros": {
+      "problem": "Emprendimiento de turismo aventura necesitaba una identidad visual dinámica.",
+      "process": "El logo toma las geometrías y formas que evocan movimiento y aventura, formando las iniciales MV.",
+      "solution": "Logotipo dinámico con colores vibrantes que transmite energía y aventura."
+    },
+    "la-2-rusa": {
+      "problem": "Importador de indumentaria para motociclistas necesitaba un logotipo con identidad americana.",
+      "process": "Si bien el logo usa las iniciales con una tipo dinámica y moderna, se le sumó la bandera de EEUU ya que el cliente se estableció en dicho país.",
+      "solution": "Logotipo L2R integrado con la bandera americana, comunicando el origen y la actitud de la marca."
+    },
+    "etreum-festival": {
+      "problem": "Festival de cine fantástico, horror y animación necesitaba piezas gráficas para su IV edición internacional.",
+      "process": "Se crearon personajes que son seres salidos de pesadillas como partido gráfico. La idea fue darle una personalidad distinta al evento con estética de terror pero con tintes caricaturescos.",
+      "solution": "Sistema gráfico completo con personajes, afiches, stickers y material promocional para sedes en Buenos Aires, Toronto, Madrid, Bogotá, Veracruz y Ciudad de México."
+    },
+    "bauhaus-infografia": {
+      "problem": "Crear una infografía educativa sobre la historia de la Bauhaus.",
+      "process": "Investigación de la escuela Bauhaus (1919-1933) y diseño con estética inspirada en el movimiento.",
+      "solution": "Infografía de línea temporal con tipografía y geometría Bauhaus, combinando fotografía de época con elementos gráficos."
+    },
+    "social-media-inspectre": {
+      "problem": "La marca necesitaba contenido visual para redes sociales que mantuviera coherencia con su identidad urbana.",
+      "process": "Diseño de piezas para Instagram incluyendo posts, stories y material promocional del showroom.",
+      "solution": "Suite de contenido para redes con estética neón y street style, incluyendo fotos de producto y piezas informativas."
+    }
+  },
   "services": {
     "title": "Servicios",
     "items": {
       "identity": { "name": "Identidad Visual", "desc": "Diseño de logos, paletas de color y sistemas visuales completos para tu marca." },
       "branding": { "name": "Branding", "desc": "Construcción integral de identidad de marca con coherencia en todos los puntos de contacto." },
-      "packaging": { "name": "Packaging", "desc": "Diseño de envases y empaques que destacan en el punto de venta." },
       "editorial": { "name": "Diseño Editorial", "desc": "Maquetación de revistas, catálogos, infografías y piezas impresas." },
-      "social": { "name": "Social Media", "desc": "Contenido visual para redes sociales que conecta con tu audiencia." },
-      "web": { "name": "Diseño Web", "desc": "Sitios web modernos, responsivos y optimizados para conversión." }
+      "social": { "name": "Social Media", "desc": "Contenido visual para redes sociales que conecta con tu audiencia." }
     }
   },
   "about": {
@@ -40,13 +105,8 @@
   "contact": {
     "title": "Contacto",
     "cta": "Escribime por WhatsApp",
-    "more": "Ver más formas de contacto",
-    "form": {
-      "name": "Nombre",
-      "email": "Email",
-      "message": "Mensaje",
-      "send": "Enviar"
-    }
+    "downloadLabel": "Portfolio PDF",
+    "downloadCta": "Descargar Portfolio"
   },
   "clients": {
     "title": "Clientes"

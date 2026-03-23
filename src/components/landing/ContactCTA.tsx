@@ -1,7 +1,6 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/navigation";
 import { ScrollReveal } from "@/components/animations/ScrollReveal";
 import { motion } from "framer-motion";
 
@@ -63,12 +62,16 @@ export function ContactCTA() {
         </ScrollReveal>
 
         <ScrollReveal delay={0.3}>
-          <Link
-            href="/contact"
-            className="mt-4 inline-block text-sm text-[var(--color-dark)]/40 underline transition-colors hover:text-[var(--color-dark)]"
+          <a
+            href="/Pedro-Magallanes-Portfolio.pdf"
+            download
+            className="mt-6 inline-flex items-center gap-2 text-sm text-[var(--color-dark)]/60 underline transition-colors hover:text-[var(--color-dark)]"
           >
-            {t("more")}
-          </Link>
+            <svg className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+            </svg>
+            {t("downloadCta")}
+          </a>
         </ScrollReveal>
       </div>
     </section>

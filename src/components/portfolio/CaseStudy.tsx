@@ -4,6 +4,7 @@ import type { Project } from "@/data/projects";
 import { ScrollReveal } from "@/components/animations/ScrollReveal";
 import { GlitchText } from "@/components/animations/GlitchText";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 interface CaseStudyProps {
@@ -11,6 +12,9 @@ interface CaseStudyProps {
 }
 
 export function CaseStudy({ project }: CaseStudyProps) {
+  const t = useTranslations("caseStudy");
+  const tp = useTranslations(`projects.${project.slug}`);
+
   return (
     <article>
       <div className="relative h-[60vh] w-full overflow-hidden md:h-[70vh]">
@@ -48,13 +52,13 @@ export function CaseStudy({ project }: CaseStudyProps) {
         <div className="grid gap-16 md:grid-cols-[1fr_250px]">
           <div className="space-y-16">
             <ScrollReveal>
-              <h2 className="mb-4 font-[family-name:var(--font-heading)] text-2xl uppercase">El Problema</h2>
-              <p className="text-[var(--color-dark)]/70 leading-relaxed">{project.description.problem}</p>
+              <h2 className="mb-4 font-[family-name:var(--font-heading)] text-2xl uppercase">{t("problem")}</h2>
+              <p className="text-[var(--color-dark)]/70 leading-relaxed">{tp("problem")}</p>
             </ScrollReveal>
 
             <ScrollReveal>
-              <h2 className="mb-4 font-[family-name:var(--font-heading)] text-2xl uppercase">El Proceso</h2>
-              <p className="text-[var(--color-dark)]/70 leading-relaxed">{project.description.process}</p>
+              <h2 className="mb-4 font-[family-name:var(--font-heading)] text-2xl uppercase">{t("process")}</h2>
+              <p className="text-[var(--color-dark)]/70 leading-relaxed">{tp("process")}</p>
             </ScrollReveal>
 
             <ScrollReveal>
@@ -84,27 +88,27 @@ export function CaseStudy({ project }: CaseStudyProps) {
             </ScrollReveal>
 
             <ScrollReveal>
-              <h2 className="mb-4 font-[family-name:var(--font-heading)] text-2xl uppercase">La Solución</h2>
-              <p className="text-[var(--color-dark)]/70 leading-relaxed">{project.description.solution}</p>
+              <h2 className="mb-4 font-[family-name:var(--font-heading)] text-2xl uppercase">{t("solution")}</h2>
+              <p className="text-[var(--color-dark)]/70 leading-relaxed">{tp("solution")}</p>
             </ScrollReveal>
           </div>
 
           <aside className="hidden md:block">
             <div className="sticky top-32 space-y-8 border-l border-[var(--color-dark)]/10 pl-8">
               <div>
-                <h3 className="font-[family-name:var(--font-heading)] text-xs uppercase tracking-widest text-[var(--color-dark)]/40">Cliente</h3>
+                <h3 className="font-[family-name:var(--font-heading)] text-xs uppercase tracking-widest text-[var(--color-dark)]/40">{t("client")}</h3>
                 <p className="mt-1">{project.client}</p>
               </div>
               <div>
-                <h3 className="font-[family-name:var(--font-heading)] text-xs uppercase tracking-widest text-[var(--color-dark)]/40">Año</h3>
+                <h3 className="font-[family-name:var(--font-heading)] text-xs uppercase tracking-widest text-[var(--color-dark)]/40">{t("year")}</h3>
                 <p className="mt-1">{project.year}</p>
               </div>
               <div>
-                <h3 className="font-[family-name:var(--font-heading)] text-xs uppercase tracking-widest text-[var(--color-dark)]/40">Categoría</h3>
+                <h3 className="font-[family-name:var(--font-heading)] text-xs uppercase tracking-widest text-[var(--color-dark)]/40">{t("category")}</h3>
                 <p className="mt-1 capitalize">{project.category.replace("-", " ")}</p>
               </div>
               <div>
-                <h3 className="font-[family-name:var(--font-heading)] text-xs uppercase tracking-widest text-[var(--color-dark)]/40">Herramientas</h3>
+                <h3 className="font-[family-name:var(--font-heading)] text-xs uppercase tracking-widest text-[var(--color-dark)]/40">{t("tools")}</h3>
                 <div className="mt-1 flex flex-wrap gap-2">
                   {project.tools.map((tool) => (
                     <span key={tool} className="border border-[var(--color-dark)]/10 px-2 py-1 text-xs">
@@ -115,7 +119,7 @@ export function CaseStudy({ project }: CaseStudyProps) {
               </div>
               {project.palette && (
                 <div>
-                  <h3 className="font-[family-name:var(--font-heading)] text-xs uppercase tracking-widest text-[var(--color-dark)]/40">Paleta</h3>
+                  <h3 className="font-[family-name:var(--font-heading)] text-xs uppercase tracking-widest text-[var(--color-dark)]/40">{t("palette")}</h3>
                   <div className="mt-2 flex gap-2">
                     {project.palette.map((color) => (
                       <div

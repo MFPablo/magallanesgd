@@ -15,10 +15,6 @@ export function Hero() {
       <FloatingShapes />
 
       <div className="relative z-10 text-center">
-        <p className="mb-4 font-[family-name:var(--font-heading)] text-sm tracking-[0.3em] text-[var(--color-dark)]/60">
-          2020 &bull; 2025
-        </p>
-
         <GlitchText
           text={t("title")}
           as="h1"
