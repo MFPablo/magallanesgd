@@ -1,0 +1,5 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#FAF8F5"/>
+  <rect x="1" y="1" width="798" height="598" fill="none" stroke="#E5E5E5" stroke-width="1"/>
+  <text x="400" y="300" text-anchor="middle" fill="#CCCCCC" font-family="sans-serif" font-size="24">Imagen del proyecto</text>
+</svg>

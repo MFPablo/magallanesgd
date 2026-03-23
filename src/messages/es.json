@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "portfolio": "Portfolio",
+    "about": "Sobre Mí",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "PEDRO MAGALLANES.",
+    "subtitle": "DISEÑADOR GRÁFICO",
+    "cta": "Ver Portfolio"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "viewAll": "Ver todo el portfolio",
+    "filter": "Filtrar",
+    "all": "Todos",
+    "prev": "Anterior",
+    "next": "Siguiente"
+  },
+  "services": {
+    "title": "Servicios",
+    "items": {
+      "identity": { "name": "Identidad Visual", "desc": "Diseño de logos, paletas de color y sistemas visuales completos para tu marca." },
+      "branding": { "name": "Branding", "desc": "Construcción integral de identidad de marca con coherencia en todos los puntos de contacto." },
+      "packaging": { "name": "Packaging", "desc": "Diseño de envases y empaques que destacan en el punto de venta." },
+      "editorial": { "name": "Diseño Editorial", "desc": "Maquetación de revistas, catálogos, infografías y piezas impresas." },
+      "social": { "name": "Social Media", "desc": "Contenido visual para redes sociales que conecta con tu audiencia." },
+      "web": { "name": "Diseño Web", "desc": "Sitios web modernos, responsivos y optimizados para conversión." }
+    }
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "bio": "Hola! Soy Pedro. Diseñador Gráfico Artístico Digital. Creatividad, versatilidad y pasión por el diseño. Actualmente, soy recibido en la carrera de Diseñador Gráfico Artístico Digital en el Colegio Da Vinci, complementando mi formación con cursos de Diseño Web y Diseño UX en Coderhouse. Mi experiencia en diversos rubros me ha permitido desarrollar una mirada integral y adaptativa, combinando estética, funcionalidad y comunicación efectiva en cada proyecto.",
+    "skills": "Habilidades",
+    "software": "Software",
+    "education": "Formación",
+    "languages": "Idiomas"
+  },
+  "contact": {
+    "title": "Contacto",
+    "cta": "Escribime por WhatsApp",
+    "more": "Ver más formas de contacto",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "message": "Mensaje",
+      "send": "Enviar"
+    }
+  },
+  "clients": {
+    "title": "Clientes"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados"
+  }
+}

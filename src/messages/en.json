@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "PEDRO MAGALLANES.",
+    "subtitle": "GRAPHIC DESIGNER",
+    "cta": "View Portfolio"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "viewAll": "View full portfolio",
+    "filter": "Filter",
+    "all": "All",
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "services": {
+    "title": "Services",
+    "items": {
+      "identity": { "name": "Visual Identity", "desc": "Logo design, color palettes, and complete visual systems for your brand." },
+      "branding": { "name": "Branding", "desc": "Comprehensive brand identity building with consistency across all touchpoints." },
+      "packaging": { "name": "Packaging", "desc": "Package and container design that stands out at the point of sale." },
+      "editorial": { "name": "Editorial Design", "desc": "Layout of magazines, catalogs, infographics, and printed pieces." },
+      "social": { "name": "Social Media", "desc": "Visual content for social media that connects with your audience." },
+      "web": { "name": "Web Design", "desc": "Modern, responsive websites optimized for conversion." }
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "bio": "Hi! I'm Pedro. Digital Artistic Graphic Designer. Creativity, versatility, and passion for design. I graduated in Digital Artistic Graphic Design from Colegio Da Vinci, complementing my education with Web Design and UX Design courses at Coderhouse. My experience across various industries has allowed me to develop a comprehensive and adaptive perspective, combining aesthetics, functionality, and effective communication in every project.",
+    "skills": "Skills",
+    "software": "Software",
+    "education": "Education",
+    "languages": "Languages"
+  },
+  "contact": {
+    "title": "Contact",
+    "cta": "Message me on WhatsApp",
+    "more": "See more contact options",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send"
+    }
+  },
+  "clients": {
+    "title": "Clients"
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  }
+}
